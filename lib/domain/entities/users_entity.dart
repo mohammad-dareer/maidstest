@@ -1,8 +1,8 @@
-class QuotesEntity {
-  bool? sukses;
-  List<Result>? result;
+import 'package:flutter_bloc_clean_architecture_example/data/model/users_model.dart';
 
-  QuotesEntity({this.sukses, this.result});
+class UsersEntity {
+  UserModel? user;
+  UsersEntity({this.user});
 }
 
 class Result {
